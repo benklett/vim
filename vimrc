@@ -7,7 +7,8 @@ syntax on
 set ruler
 set number
 set encoding=utf-8
-:set backspace=indent,eol,start
+set backspace=indent,eol,start
+set visualbell
 
 " Solarized
 let g:solarized_termcolors=256
