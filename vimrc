@@ -4,6 +4,8 @@ execute pathogen#infect()
 "let mapleader = "\<Space>"
 filetype plugin indent on
 syntax on
+set ruler
+set number
 set encoding=utf-8
 :set backspace=indent,eol,start
 
