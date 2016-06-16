@@ -9,6 +9,7 @@ set number
 set encoding=utf-8
 set backspace=indent,eol,start
 set visualbell
+set modeline
 
 " Solarized
 let g:solarized_termcolors=256
