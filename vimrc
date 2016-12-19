@@ -18,6 +18,11 @@ set backspace=indent,eol,start
 set visualbell
 set modeline
 
+" vim-airline
+set laststatus=2
+let g:airline_theme = "base16"
+let g:airline_powerline_fonts = 1
+
 " Solarized
 let g:solarized_termcolors=256
 set background=dark
@@ -33,6 +38,3 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
-" vim-airline
-set laststatus=2
-let g:airline_theme = "base16"
