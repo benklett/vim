@@ -1,9 +1,16 @@
-execute pathogen#infect()
+call plug#begin('~/.vim/plugged')
+
+Plug 'scrooloose/syntastic'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'altercation/vim-colors-solarized'
+Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
+
+call plug#end()
 
 "inoremap jk <ESC>
 "let mapleader = "\<Space>"
-filetype plugin indent on
-syntax on
 set ruler
 set number
 set encoding=utf-8
